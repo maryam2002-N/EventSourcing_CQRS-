@@ -1,6 +1,8 @@
 # TP :  Gestion de Comptes Bancaires avec CQRS et Event Sourcing
 
-Cette application  est un exemple de microservice développé avec Spring Boot et le framework Axon pour gérer des comptes bancaires en respectant les patterns CQRS et Event Sourcing.
+
+**Cette application  est un exemple de microservice développé avec Spring Boot et le framework Axon pour gérer des comptes bancaires en respectant les patterns CQRS et Event Sourcing.**
+
 <img src="images/13.png" width="600px">
 ---
 ## Objectifs
@@ -37,8 +39,10 @@ Créer un projet Spring Boot avec les dépendances suivantes :
 Le projet est organisé selon les modules principaux :
 
 Command Side : gestion des commandes et envoi d'événements.
+
 <img src="images/17.png" width="600px">
 <img src="images/2.png" width="600px">
+
 Query Side : gestion des requêtes et projections.
 
 ## 3. Structure du projet
